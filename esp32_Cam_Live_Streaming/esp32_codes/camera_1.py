@@ -40,10 +40,13 @@ camera.contrast(0)
 #-2,2 (default 0). 2 highcontrast
 
 # quality
-camera.quality(62)
+
 # 10-63 lower number means higher quality
-def take_photo():
+def take_photo(qualityy):
+    camera.quality(qualityy) #between 10-63 lower number means higher quality
     buf = camera.capture()
-    print(len(buf))
+    #print(len(buf))
     return buf
 
+def camera_deinit():
+    camera.deinit()
