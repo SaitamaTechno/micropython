@@ -27,7 +27,7 @@ s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 s.connect((HOST, PORT))
 while 1:
-    a=camera_1.take_photo()
+    a=camera_1.take_photo(62)
     s.sendall(a)
     data = s.recv(10)
 
