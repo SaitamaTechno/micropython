@@ -26,4 +26,5 @@ header 5tl<br>
 25c 450mah 1s lipo batarya 200tl robotzade.com<br>
 <br>
 
-Toplam 780tl = 25.5$<br>
+Total 780tl = 25.5$<br>
+Date: 08.07.2024<br>
